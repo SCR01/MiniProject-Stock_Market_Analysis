@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stock-list, .stock-details, .stock-chart {
+    background-color: #003366;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.stock-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stock-list li {
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.stock-details h2, .stock-chart h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stock-details p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stock-chart canvas {
+    width: 100%;
+    height: 400px;
+}
+
+.stock-chart .buttons {
+    margin-bottom: 10px;
+}
+
+.stock-chart button {
+    margin-right: 5px;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stock-chart button:hover {
+    background-color: #0059b3;
+}
+
+.highlight {
+    border: 2px solid #FFD700; /* Gold color for highlighting */
+}
